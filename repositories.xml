@@ -11,7 +11,7 @@
       <email>deogracia@free.fr</email>
       <name><![CDATA[DeoGracia]]></name>
     </owner>
-    <source type="git">https://github.com/deogracia/deogracia-vagrant-gentoo-overlay.git</source>
+    <source type="git" branch="master">https://github.com/deogracia/deogracia-vagrant-gentoo-overlay.git</source>
     <source type="git">git@github.com:deogracia/deogracia-vagrant-gentoo-overlay.git</source>
     <feed>https://github.com/deogracia/deogracia-vagrant-gentoo-overlay/commits/master.atom</feed>
   </repo>
