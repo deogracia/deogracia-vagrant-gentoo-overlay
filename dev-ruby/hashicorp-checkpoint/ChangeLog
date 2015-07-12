@@ -1,0 +1,9 @@
+# ChangeLog for dev-ruby/hashicorp-checkpoint
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*hashicorp-checkpoint-0.1.4 (12 Jul 2015)
+
+  12 Jul 2015; <lfelicite@gentoo.org> +hashicorp-checkpoint-0.1.4.ebuild:
+  Initial import of hashicorp-checkpoint from gem
+
