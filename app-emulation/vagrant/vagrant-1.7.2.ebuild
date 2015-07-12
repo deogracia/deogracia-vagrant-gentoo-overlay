@@ -37,7 +37,8 @@ ruby_add_rdepend "
        >=dev-ruby/net-sftp-2.1.0
        >=dev-ruby/bundler-1.7.13
        >=dev-ruby/rest-client-1.8.0
-       >=dev-ruby/log4r-1.1.10"
+       >=dev-ruby/log4r-1.1.10
+       >=dev-ruby/listen-2.8.0"
 
 ruby_add_bdepend "
        >=dev-ruby/rake-0.9.6
