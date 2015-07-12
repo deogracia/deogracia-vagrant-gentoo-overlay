@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/nokogiri/Attic/nokogiri-1.6.3.1.ebuild,v 1.4 2014/12/14 09:45:12 graaff dead $
+# $Header: $
 
 EAPI=5
 
