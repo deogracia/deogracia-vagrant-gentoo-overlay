@@ -16,7 +16,7 @@ inherit ruby-fakegem eutils
 
 DESCRIPTION="Vagrant is a tool for building and distributing development environments."
 HOMEPAGE="http://www.vagrantup.com"
-SRC_URI="https://github.com/mitchellh/${PN}/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/mitchellh/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -35,7 +35,9 @@ ruby_add_rdepend "
        >=dev-ruby/net-scp-1.1.0
        >=dev-ruby/net-ssh-2.8.0
        >=dev-ruby/net-sftp-2.1.0
-       >=dev-ruby/bundler-1.7.13"
+       >=dev-ruby/bundler-1.7.13
+       >=dev-ruby/rest-client-1.8.0
+       >=dev-ruby/log4r-1.1.10"
 
 ruby_add_bdepend "
        >=dev-ruby/rake-0.9.6
