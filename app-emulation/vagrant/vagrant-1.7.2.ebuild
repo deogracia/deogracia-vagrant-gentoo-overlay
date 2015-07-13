@@ -49,5 +49,9 @@ ruby_add_bdepend "
 all_ruby_prepare() {
     sed -i -e '/"rb-kqueue"/d;/"wdm"/d;/"winrm"/d' ${RUBY_FAKEGEM_GEMSPEC} || \
      die "`pwd` / ${RUBY_FAKEGEM_GEMSPEC} / Sed failed!"
+
+    cd "${S}"
+    epatch "${FILESDIR}"/${P}-no-warning.patch
+    epatch "${FILESDIR}"/${P}-rvm.patch
 }
 
