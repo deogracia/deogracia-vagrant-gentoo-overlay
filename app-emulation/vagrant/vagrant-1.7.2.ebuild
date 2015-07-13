@@ -45,3 +45,9 @@ ruby_add_bdepend "
        >=dev-ruby/rake-0.9.6
        >=dev-ruby/rspec-2.14.0
        >=dev-ruby/webmock-1.19.0"
+
+all_ruby_prepare() {
+    sed -i -e '/"rb-kqueue"/d;/"wdm"/d;/"winrm"/d' ${RUBY_FAKEGEM_GEMSPEC} || \
+     die "`pwd` / ${RUBY_FAKEGEM_GEMSPEC} / Sed failed!"
+}
+

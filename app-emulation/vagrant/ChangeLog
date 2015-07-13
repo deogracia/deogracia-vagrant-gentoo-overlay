@@ -3,5 +3,8 @@
 # $Header: $
 
   13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild:
+  remove specific OS dependency
+
+  13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild:
   add hashicorp-checkpoint dependency
 
