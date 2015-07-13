@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild,
+  +files/vagrant-1.7.2-no-warning.patch, +files/vagrant-1.7.2-rvm.patch:
+  Remove warning since I built from the gem
+  Add the patch files taken from gentoo bug #474476
+
   13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild:
   remove specific OS dependency
 
