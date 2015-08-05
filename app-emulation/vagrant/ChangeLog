@@ -2,6 +2,13 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vagrant-1.7.3 (05 Aug 2015)
+
+  05 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.3.ebuild,
+  +files/vagrant-1.7.3-no-warning.patch, +files/vagrant-1.7.3-rvm.patch:
+  fix #1
+  bump vagrant to 1.7.3
+
   13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild,
   +files/vagrant-1.7.2-no-warning.patch, +files/vagrant-1.7.2-rvm.patch:
   Remove warning since I built from the gem

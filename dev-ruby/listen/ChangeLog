@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/listen
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*listen-3.0.2 (05 Aug 2015)
+
+  05 Aug 2015; <lfelicite@gentoo.org> +listen-3.0.2.ebuild:
+  bump listen to 3.0.2
+  Fix #3
+

@@ -1,0 +1,11 @@
+--- bin/vagrant	2015-08-05 20:28:41.849302700 +0200
++++ bin/vagrant	2015-08-05 20:29:09.019124011 +0200
+@@ -6,6 +6,8 @@
+ Signal.trap("INT") { abort }
+ 
+ ENV['VAGRANT_I_KNOW_WHAT_IM_DOING_PLEASE_BE_QUIET'] = 'true'
++ENV.delete('GEM_HOME')
++ENV.delete('GEM_PATH')
+ 
+ # Split arguments by "--" if its there, we'll recombine them later
+ argv = ARGV.dup
