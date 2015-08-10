@@ -39,6 +39,8 @@ ruby_add_rdepend "
        >=dev-ruby/net-sftp-2.1.0
        >=dev-ruby/net-scp-1.1.0
        >=dev-ruby/rest-client-1.8.0
+       >=dev-ruby/winrm-1.3.0
+       >=dev-ruby/winrm-fs-0.2.0
        =dev-ruby/nokogiri-1.6.3.1"
 
 ruby_add_bdepend "
