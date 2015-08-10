@@ -48,7 +48,7 @@ ruby_add_bdepend "
        >=dev-ruby/fake_ftp-0.1.1"
 
 all_ruby_prepare() {
-    sed -i -e '/"rb-kqueue"/d;/"wdm"/d;/"winrm"/d' ${RUBY_FAKEGEM_GEMSPEC} || \
+    sed -i -e '/"rb-kqueue"/d;/"wdm"/d' ${RUBY_FAKEGEM_GEMSPEC} || \
      die "`pwd` / ${RUBY_FAKEGEM_GEMSPEC} / Sed failed!"
 
     cd "${S}"

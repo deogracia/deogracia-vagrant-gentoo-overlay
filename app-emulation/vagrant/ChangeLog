@@ -2,6 +2,12 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
+  refs #4
+  remove deletion winrm* gem since I provide them now
+
+  & vagrant require them
+
 *vagrant-1.7.3 (05 Aug 2015)
 
   05 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.3.ebuild,
