@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/rubyntlm
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rubyntlm-0.4.0 (05 Aug 2015)
+
+  05 Aug 2015; <lfelicite@gentoo.org> +rubyntlm-0.4.0.ebuild:
+  refs #4
+  add missing dep to build winrm
+
