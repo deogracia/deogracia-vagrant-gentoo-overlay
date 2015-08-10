@@ -4,6 +4,10 @@
 
   10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
   refs #4
+  forgot to add wirn* dependancy in ebuild :x
+
+  10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
+  refs #4
   remove deletion winrm* gem since I provide them now
 
   & vagrant require them
