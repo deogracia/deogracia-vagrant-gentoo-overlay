@@ -31,7 +31,7 @@ ruby_add_rdepend "
        >=dev-ruby/httpclient-2.5.3.2
        >=dev-ruby/rubyntlm-0.4.0
        >=dev-ruby/uuidtools-2.1.4-r1
-       >=dev-ruby/logging-2.0.0
+       =dev-ruby/logging-1.6.2
        >=dev-ruby/nori-2.0.4
        >=dev-ruby/gyoku-1.0.0
        >=dev-ruby/builder-3.2.2

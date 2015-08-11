@@ -28,6 +28,6 @@ RDEPEND="${DEPEND}"
 
 ruby_add_bdepend "
        >=dev-ruby/rake-10.3.2
-       >=dev-ruby/rspec-3.2.0
+       >=dev-ruby/rspec-2.14.1
        >=dev-ruby/nokogiri-1.6.3.1
        "

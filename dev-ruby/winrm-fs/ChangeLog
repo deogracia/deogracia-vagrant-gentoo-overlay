@@ -2,6 +2,10 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Aug 2015; <lfelicite@gentoo.org> winrm-fs-0.2.0.ebuild:
+  refs #6
+  fix version to 1.6.2
+
 *winrm-fs-0.2.0 (10 Aug 2015)
 
   10 Aug 2015; <lfelicite@gentoo.org> +winrm-fs-0.2.0.ebuild:

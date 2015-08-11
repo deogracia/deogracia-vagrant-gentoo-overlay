@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Aug 2015; <lfelicite@gentoo.org> gyoku-1.0.0.ebuild:
+  loosen some dep version requierment
+
 *gyoku-1.0.0 (05 Aug 2015)
 
   05 Aug 2015; <lfelicite@gentoo.org> +gyoku-1.0.0.ebuild:
