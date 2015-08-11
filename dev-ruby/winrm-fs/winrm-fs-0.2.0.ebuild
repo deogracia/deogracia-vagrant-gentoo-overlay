@@ -28,7 +28,7 @@ RDEPEND="${DEPEND}"
 
 ruby_add_rdepend "
        >=dev-ruby/erubis-2.7.0-r1
-       >=dev-ruby/logging-2.0.0
+       =dev-ruby/logging-1.6.2
        >=dev-ruby/rubyzip-1.1.7
        >=dev-ruby/winrm-1.3.0
        "
