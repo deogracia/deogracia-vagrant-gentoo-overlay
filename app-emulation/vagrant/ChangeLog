@@ -2,6 +2,13 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vagrant-1.7.4 (14 Aug 2015)
+
+  14 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.4.ebuild,
+  +files/vagrant-1.7.4_01_no-warning.patch, +files/vagrant-1.7.4_02_rvm.patch:
+  close #2
+  upgrade to 1.7.4
+
   10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
   refs #4
   forgot to add wirn* dependancy in ebuild :x
