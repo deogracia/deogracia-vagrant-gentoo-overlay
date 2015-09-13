@@ -29,7 +29,7 @@ RDEPEND="${DEPEND}"
 ruby_add_rdepend "
        >=dev-ruby/gssapi-1.2.0
        >=dev-ruby/httpclient-2.5.3.2
-       >=dev-ruby/rubyntlm-0.4.0
+       =dev-ruby/rubyntlm-0.4.0
        >=dev-ruby/uuidtools-2.1.4-r1
        =dev-ruby/logging-1.6.2
        >=dev-ruby/nori-2.0.4
