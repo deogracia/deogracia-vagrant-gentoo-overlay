@@ -1,0 +1,11 @@
+--- bin/vagrant
++++ bin/vagrant
+@@ -5,6 +5,8 @@
+ # initializing which have historically resulted in stack traces.
+ Signal.trap("INT") { abort }
+ 
++ENV['VAGRANT_I_KNOW_WHAT_IM_DOING_PLEASE_BE_QUIET'] = 'true'
++
+ # Split arguments by "--" if its there, we'll recombine them later
+ argv = ARGV.dup
+ argv_extra = []

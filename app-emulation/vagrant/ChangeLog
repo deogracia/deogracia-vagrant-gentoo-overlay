@@ -2,6 +2,12 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vagrant-1.8.0 (24 Dec 2015)
+
+  24 Dec 2015; Lionel Félicité <lfelicite@gentoo.org> +vagrant-1.8.0.ebuild,
+  +files/vagrant-1.8.0_01_no-warning.patch, +files/vagrant-1.8.0_02_rvm.patch:
+  close #11
+
 *vagrant-1.7.4 (14 Aug 2015)
 
   14 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.4.ebuild,
